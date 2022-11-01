@@ -1,7 +1,8 @@
 """
 x = 'a,b=1,2\nprint("a + b = ", a+b)'
 eval()
-this does not work, it should be passe
+this does not work, it should be passed to code obj
+also, it cannot interact with local object 
 """
 
 x = 'print("hello")'
